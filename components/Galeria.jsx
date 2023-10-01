@@ -14,11 +14,11 @@
 */
 export default function Example() {
   return (
-    <div className="bg-gray-50">
+    <div id="galeria" className="bg-white">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="sm:flex sm:items-baseline sm:justify-between">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Shop by Category</h2>
-          <a href="#" className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">
+          <a href="#" className="hidden text-sm font-semibold text-gray-950 hover:text-gray-700 sm:block">
             Browse all categories
             <span aria-hidden="true"> &rarr;</span>
           </a>
@@ -97,7 +97,7 @@ export default function Example() {
         </div>
 
         <div className="mt-6 sm:hidden">
-          <a href="#" className="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
+          <a href="#" className="block text-sm font-semibold text-gray-950 hover:text-gray-700">
             Browse all categories
             <span aria-hidden="true"> &rarr;</span>
           </a>

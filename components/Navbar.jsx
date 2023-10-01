@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Caracteristicas", href: "/#caracteristicas" },
-  { name: "Galeria", href: "/#galeria" },
+  { name: "Productos", href: "/#galeria" },
   { name: "Dimensiones", href: "/#dimensiones" },
   { name: "Faqs", href: "/#faqs" },
 ];
@@ -27,8 +27,8 @@ export default function NavBar() {
               <span className="sr-only">Ítaca</span>
               <img
                 alt="Ítaca"
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-32 w-auto"
+                src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
               />
             </Link>
             <button
@@ -53,6 +53,7 @@ export default function NavBar() {
           </nav>
         </div>
       </div>
+      {/* mobile */}
       <Dialog
         as="div"
         className="lg:hidden"
@@ -62,12 +63,13 @@ export default function NavBar() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+            <Link href="#" className="-m-1.5 p-1.5" >
+              
+              <span className="sr-only">Ítaca</span>
               <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+                className="h-24 w-auto"
+                src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
+                alt="logoItaca"
               />
             </Link>
             <button
@@ -84,6 +86,7 @@ export default function NavBar() {
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
                   <Link
+                    onClick={()=> setMobileMenuOpen(false)}
                     key={item.name}
                     href={item.href}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -93,12 +96,9 @@ export default function NavBar() {
                 ))}
               </div>
               <div className="py-6">
-                <Link
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
+                <p className="-mx-3 block rounded-lg px-3 py-2.5 text-sm font-normal leading-7 text-gray-900">
                   ¡Hagamos que tu hogar sea su hogar!
-                </Link>
+                </p>
               </div>
             </div>
           </div>

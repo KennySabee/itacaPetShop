@@ -1,4 +1,4 @@
-import NavBar from "@/components/Navbar";
+
 import Hero from "@/components/Hero2";
 import Caracteristicas from "@/components/Caracteristicas";
 import Galeria from "@/components/Galeria";
@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <NavBar />
+      
       <Hero />
       <Caracteristicas />
       <Galeria />
