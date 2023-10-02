@@ -1,17 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+
 export default function Example() {
   return (
     <div id="galeria" className="bg-white">
@@ -59,7 +46,7 @@ export default function Example() {
             <div className="flex items-end p-6 sm:absolute sm:inset-0">
               <div>
                 <h3 className="font-semibold text-white">
-                  <a href="#">
+                  <a href="/productos/perros/camas">
                     <span className="absolute inset-0" />
                     Accessories
                   </a>

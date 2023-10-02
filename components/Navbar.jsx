@@ -23,7 +23,7 @@ export default function NavBar() {
             className="flex items-center justify-between lg:justify-start"
             aria-label="Global"
           >
-            <Link href="#" className="-m-1.5 p-1.5">
+            <Link href="/#" className="-m-1.5 p-1.5">
               <span className="sr-only">Ítaca</span>
               <img
                 alt="Ítaca"

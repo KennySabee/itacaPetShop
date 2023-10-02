@@ -36,15 +36,15 @@ export default function Hero() {
               mimar a tus adoradas mascotas.
                 </p>
                 <div className="mt-10 flex items-center justify-center sm:justify-start gap-x-6">
-                  <Link
+                  <a
                     href="/#galeria"
                     className="rounded-md bg-gray-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-700"
                   >
                     Ver Productos
-                  </Link>
-                  <Link href="/#dimensiones" className="text-sm font-semibold leading-6 text-gray-950">
+                  </a>
+                  <a href="/#dimensiones" className="text-sm font-semibold leading-6 text-gray-950">
                   Dimensiones <span aria-hidden="true">→</span>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
