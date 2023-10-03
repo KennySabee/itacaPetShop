@@ -22,7 +22,7 @@ export default function Hero() {
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   Descubre nuestra exclusiva gama de muebles.{" "}
-                    <Link href="/#caracteristicas" className="whitespace-nowrap font-semibold text-gray-950">
+                    <Link href="/#caracteristicas" smooth className="whitespace-nowrap font-semibold text-gray-950">
                       <span className="absolute inset-0" aria-hidden="true" />
                       Para perros. <span aria-hidden="true">&rarr;</span>
                     </Link>
@@ -36,15 +36,16 @@ export default function Hero() {
               mimar a tus adoradas mascotas.
                 </p>
                 <div className="mt-10 flex items-center justify-center sm:justify-start gap-x-6">
-                  <a
+                  <Link
                     href="/#galeria"
+                    smooth
                     className="rounded-md bg-gray-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-700"
                   >
                     Ver Productos
-                  </a>
-                  <a href="/#dimensiones" className="text-sm font-semibold leading-6 text-gray-950">
+                  </Link>
+                  <Link href="/#dimensiones" smooth className="text-sm font-semibold leading-6 text-gray-950">
                   Dimensiones <span aria-hidden="true">→</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
