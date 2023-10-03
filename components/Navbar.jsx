@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
   { name: "Caracteristicas", href: "/#caracteristicas" },
@@ -25,9 +26,11 @@ export default function NavBar() {
           >
             <Link href="/#" className="-m-1.5 p-1.5">
               <span className="sr-only">Ítaca</span>
-              <img
+              <Image
+              width={150  }
+              height={150}
                 alt="Ítaca"
-                className="h-32 w-auto"
+                
                 src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
               />
             </Link>
@@ -66,7 +69,9 @@ export default function NavBar() {
             <Link href="#" className="-m-1.5 p-1.5" >
               
               <span className="sr-only">Ítaca</span>
-              <img
+              <Image
+              width={100}
+              height={100}
                 className="h-24 w-auto"
                 src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
                 alt="logoItaca"

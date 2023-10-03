@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 export default function Acabados() {
@@ -21,7 +22,7 @@ export default function Acabados() {
                   </div>
                   <div className="sm:flex-shrink-0">
                     <div className="flow-root">
-                      <img className="mx-auto h-auto w-[600px] object-cover mt-4" src="https://res.cloudinary.com/kennysabee/image/upload/v1696264531/itacaPetShop/acabadosCamas.jpg" alt="" />
+                      <Image className="mx-auto object-cover mt-4" width={600} height={600}  src="https://res.cloudinary.com/kennysabee/image/upload/v1696264531/itacaPetShop/acabadosCamas.jpg" alt="coloresMadera" />
                     </div>
                   </div>
                 </div>
@@ -32,7 +33,7 @@ export default function Acabados() {
                   </div>
                   <div className="sm:flex-shrink-0">
                     <div className="flow-root">
-                      <img className="mx-auto w-[650px]  object-cover mt-4 lg:mt-0" src="https://res.cloudinary.com/kennysabee/image/upload/v1696264531/itacaPetShop/acabadosColchones.jpg" alt="" />
+                      <Image className="mx-auto object-cover mt-4 lg:mt-0" width={842} height={234}  src="https://res.cloudinary.com/kennysabee/image/upload/v1696264531/itacaPetShop/acabadosColchones.jpg" alt="coloresColchon" />
                     </div>
                   </div>
                 </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Example() {
@@ -5,10 +6,12 @@ export default function Example() {
     <>
      
       <main className="relative isolate min-h-full">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1524111890967-20e856be04d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80"
           alt="fondoNotFound"
           className="absolute inset-0 -z-10 h-full w-full object-cover object-top"
+          height={800}
+          width={800}
         />
         <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8">
           <p className="text-base font-semibold leading-8 text-gray-950 mt-44">404</p>
