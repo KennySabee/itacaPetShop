@@ -9,7 +9,7 @@ export default function Acabados() {
           <div className="mx-auto max-w-xl lg:max-w-none">
             <div className="text-center lg:text-left">
               <h2 className="text-2xl font-bold tracking-tight text-gray-950 ">
-              Personaliza la Elegancia
+              Personaliza la elegancia con nuestros acabados
               </h2>
               <p className="mt-7">Ofrecemos una variedad de acabados para que tu cama para perros se adapte a tu estilo y espacio. Crea una cama que refleje tu buen gusto y haga que tus amigos y familiares admiren tu elección.</p>
             </div>

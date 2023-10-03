@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const features = [
-  { name: "Pequeña ", description: "Ideal para Razas Pequeñas" },
+  { name: "Pequeña ", description: "Ideal para razas Pequeñas" },
   {
-    name: "Razas Ideales para la Cama Pequeña",
+    name: "Razas ideales para la cama pequeña",
     description:
       "Chihuahua, Yorkshire Terrier,Pomerania, Caniche Toy, Bichón Frisé,  Maltese",
   },
@@ -11,9 +11,9 @@ const features = [
     name: "Dimensiones",
     description: "60 cm largo x 40 cm ancho x 15 cm alto",
   },
-  { name: "Mediana", description: "Ideal para Razas Medianas" },
+  { name: "Mediana", description: "Ideal para razas Medianas" },
   {
-    name: "Razas Ideales para la Cama Mediana",
+    name: "Razas ideales para la cama mediana",
     description:
       "Beagle, Bulldog Francés, Cocker Spaniel, Shiba Inu, Schnauzer, Corgi",
   },
@@ -21,9 +21,9 @@ const features = [
     name: "Dimensiones",
     description: "80 cm largo x 60 cm ancho x 15 cm alto.",
   },
-  { name: "Grande", description: "Ideal para Razas Grandes" },
+  { name: "Grande", description: "Ideal para razas Grandes" },
   {
-    name: "Razas Ideales para la Cama Grande",
+    name: "Razas ideales para la cama grande",
     description:
       "Labrador Retriever, Golden Retriever, Pastor Alemán, Husky Siberiano, Boxer, Dálmata",
   },
@@ -37,14 +37,13 @@ export default function Example() {
   return (
     <div id="dimensiones" className="bg-white">
       <div aria-hidden="true" className="relative">
-        <Image width={800} height={800}
-          src="https://tailwindui.com/img/ecommerce-images/product-feature-02-full-width.jpg"
+        <Image width={1080} height={1080}
+          src="https://res.cloudinary.com/kennysabee/image/upload/v1696351032/itacaPetShop/galeriaPortada/perroPortada.jpg"
           alt="dimensiones"
-          className="h-96 w-full object-cover object-center"
+          className="h-72 sm:h-96 w-full object-cover  object-bottom sm:object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-white" />
       </div>
-
       <div className="relative mx-auto -mt-12 max-w-7xl px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
         <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -69,6 +68,7 @@ export default function Example() {
           ))}
         </dl>
       </div>
+
     </div>
   );
 }

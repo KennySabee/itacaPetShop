@@ -6,19 +6,19 @@ export default function Example() {
     <div id="galeria" className="bg-white">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="sm:flex sm:items-baseline sm:justify-between">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Shop by Category</h2>
-          <a href="#" className="hidden text-sm font-semibold text-gray-950 hover:text-gray-700 sm:block">
-            Browse all categories
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Productos</h2>
+          <Link href="/#dimensiones" className="hidden text-sm font-semibold text-gray-950 hover:text-gray-700 sm:block">
+            Dimensiones
             <span aria-hidden="true"> &rarr;</span>
-          </a>
+          </Link>
         </div>
 
         <div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
           <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
             <Image
-              src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="https://res.cloudinary.com/kennysabee/image/upload/v1696355455/itacaPetShop/galeriaPortada/itacaGaleria.jpg"
               alt="Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee."
-              className="object-cover object-center group-hover:opacity-75"
+              className="object-cover object-center "
               width={600}
               height={600}
             />
@@ -28,11 +28,11 @@ export default function Example() {
                 <h3 className="font-semibold text-white">
                   <Link href="#">
                     <span className="absolute inset-0" />
-                    New Arrivals
+                    Nuevo
                   </Link>
                 </h3>
                 <p aria-hidden="true" className="mt-1 text-sm text-white">
-                  Shop now
+                  Comprar ya
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default function Example() {
           </div>
           <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
             <Image
-              src="https://res.cloudinary.com/kennysabee/image/upload/v1696351032/itacaPetShop/galeriaPortada/perroPortada.jpg"
+              src="https://res.cloudinary.com/kennysabee/image/upload/v1696355454/itacaPetShop/galeriaPortada/perroGaleria.jpg"
               alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters."
               className="object-cover object-bottom   group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full"
               width={500}
@@ -93,8 +93,8 @@ export default function Example() {
         </div>
 
         <div className="mt-6 sm:hidden">
-          <Link href="#" className="block text-sm font-semibold text-gray-950 hover:text-gray-700">
-            Browse all categories
+          <Link href="/#dimensiones" className="block text-sm font-semibold text-gray-950 hover:text-gray-700">
+            Dimensiones
             <span aria-hidden="true"> &rarr;</span>
           </Link>
         </div>

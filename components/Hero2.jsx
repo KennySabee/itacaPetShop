@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <Image
             className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src="https://images.unsplash.com/photo-1618133401223-30ec212193fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2077&q=80"
+            src="https://res.cloudinary.com/kennysabee/image/upload/v1696355366/itacaPetShop/hero.jpg"
             alt="fondoHero"
             width={800}
             height={800}

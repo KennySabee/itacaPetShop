@@ -1,64 +1,64 @@
 import Image from "next/image";
 
 const featuredTestimonial = {
-  body: "Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.",
+  body: "La cama grande de Itaca ha cambiado la vida de mi Husky Siberiano, Luna. Desde que tenemos esta cama, Luna duerme profundamente y se despierta más feliz que nunca. La calidad y el diseño de la cama son impresionantes. ¡Esta cama realmente es una joya para cualquier dueño de mascotas en departamentos!",
   author: {
-    name: "Brenna Goyette",
+    name: "Elena R.",
     handle: "brennagoyette",
     imageUrl:
-      "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80",
-    logoUrl: "https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg",
+      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+    
   },
 };
 const testimonials = [
   [
     [
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "Mi perro nunca ha dormido tan bien como en su cama Itaca. La calidad y el estilo son impresionantes. ¡Una compra que no me arrepiento!",
         author: {
-          name: "Leslie Alexander",
+          name: "Alejandro S.",
           handle: "lesliealexander",
           imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
         },
       },
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "La cama mediana de Itaca es perfecta para mi Cocker Spaniel. Le encanta y se ve genial en mi sala de estar..",
         author: {
-          name: "Leslie Alexander",
+          name: " Laura P.",
           handle: "lesliealexander",
           imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1542996966-2e31c00bae31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
         },
       },
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "La madera de la cama pequeña de Itaca es simplemente espectacular. Mi Yorkshire Terrier, Bella, se ve tan elegante en su nueva cama. La calidad de la madera es evidente y le da un toque de sofisticación a nuestro espacio.",
         author: {
-          name: "Leslie Alexander",
+          name: "Xavier H. ",
           handle: "lesliealexander",
           imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1540289327268-c149bdfd7d3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80",
         },
       },
       // More testimonials...
     ],
     [
       {
-        body: "Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.",
+        body: "Nuestra cama pequeña de Itaca es simplemente adorable. Mi Chihuahua la adora, y yo también.",
         author: {
-          name: "Lindsay Walton",
+          name: "Lindsay W.",
           handle: "lindsaywalton",
           imageUrl:
-            "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1484608856193-968d2be4080e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
         },
       },
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "Mi Pastor Alemán tiene mucho espacio en la cama grande de Itaca. Está tan cómodo que a veces me gustaría tener una igual.",
         author: {
-          name: "Leslie Alexander",
+          name: " María J. ",
           handle: "lesliealexander",
           imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1526080652727-5b77f74eacd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80",
         },
       },
     ],
@@ -66,50 +66,50 @@ const testimonials = [
   [
     [
       {
-        body: "Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.",
+        body: "La madera de la cama de Itaca es lo que más me impresiona. Es sólida y hermosa. Mi Pug, Toby, parece sentirse como un rey en su cama de madera. ¡Una obra maestra de artesanía!",
         author: {
-          name: "Tom Cook",
+          name: "Natalia L.",
           handle: "tomcook",
           imageUrl:
-            "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1685703217788-6709c752f567?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
         },
       },
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "Nuestra cama grande de Itaca ha elevado la comodidad de nuestro Dálmata, Luna. Es espaciosa y duradera, lo que es crucial para una raza activa como la suya. ¡Estamos muy contentos con nuestra compra!",
         author: {
-          name: "Leslie Alexander",
+          name: "Leslie A.",
           handle: "lesliealexander",
           imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1685703206888-3af4781ad83f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
         },
       },
     ],
     [
       {
-        body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+        body: "La cama pequeña de Itaca es el refugio perfecto para nuestro Bichón Frisé, Bella. La calidad y el diseño son excepcionales. Bella la adora, y nosotros también. Sin duda, una inversión que vale la pena.",
         author: {
-          name: "Leonard Krasner",
+          name: "Leonardo K.",
           handle: "leonardkrasner",
           imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1517308883849-ceac3c24681e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1972&q=80",
         },
       },
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "Mi Bulldog Francés, Coco, nunca había tenido una cama tan cómoda como la de Itaca. La calidad de construcción es excepcional. ¡Gracias, Itaca!",
         author: {
-          name: "Leslie Alexander",
+          name: "Marcos R.",
           handle: "lesliealexander",
           imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1603570112520-fdc514048979?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
         },
       },
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "La calidad de la madera de la cama de Itaca es realmente excepcional. La elegante madera natural se ve y se siente increíble. Mi Border Collie, Max, sabe apreciar el buen material, y esta cama definitivamente cumple con sus estándares. ¡Estamos encantados!",
         author: {
-          name: "Leslie Alexander",
+          name: " Lucía S.",
           handle: "lesliealexander",
           imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "https://images.unsplash.com/photo-1519733833087-3b1ceb8d56c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1929&q=80",
         },
       },
     ],
@@ -122,7 +122,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <div className="relative isolate bg-white pb-32 pt-24 sm:pt-32">
+    <div className="relative isolate bg-white  pt-7 sm:pt-14 ">
       <div
         className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
         aria-hidden="true"
@@ -151,7 +151,7 @@ export default function Example() {
             </blockquote>
             <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
               <Image height={50} width={50}
-                className="h-10 w-10 flex-none rounded-full bg-gray-50"
+                className="h-10 w-10 flex-none rounded-full bg-gray-50 object-cover"
                 src={featuredTestimonial.author.imageUrl}
                 alt="testimonio"
               />
@@ -159,13 +159,9 @@ export default function Example() {
                 <div className="font-semibold">
                   {featuredTestimonial.author.name}
                 </div>
-                <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+                
               </div>
-              <Image height={50} width={50}
-                className="h-10 w-auto flex-none"
-                src={featuredTestimonial.author.logoUrl}
-                alt="testimonio2"
-              />
+              
             </figcaption>
           </figure>
           {testimonials.map((columnGroup, columnGroupIdx) => (
@@ -195,7 +191,7 @@ export default function Example() {
                       </blockquote>
                       <figcaption className="mt-6 flex items-center gap-x-4">
                         <Image height={50} width={50}
-                          className="h-10 w-10 rounded-full bg-gray-50"
+                          className="h-10 w-10 rounded-full bg-gray-50 object-cover"
                           src={testimonial.author.imageUrl}
                           alt="testimonios"
                         />
@@ -203,7 +199,7 @@ export default function Example() {
                           <div className="font-semibold">
                             {testimonial.author.name}
                           </div>
-                          <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                          
                         </div>
                       </figcaption>
                     </figure>

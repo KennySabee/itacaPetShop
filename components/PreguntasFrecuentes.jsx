@@ -4,28 +4,48 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: " ¿Cuáles son los tamaños disponibles de las camas para perros de Itaca?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Ofrecemos tres tamaños: pequeño, mediano y grande. El tamaño que elijas dependerá del tamaño de tu perro y del espacio disponible en tu hogar.",
   },{
-    question: "What's the best thing about Switzerland?",
+    question: "¿Puedo personalizar el acabado de la cama para que coincida con la decoración de mi hogar?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "¡Por supuesto! Ofrecemos una variedad de acabados para que puedas personalizar la cama y asegurarte de que se adapte perfectamente a tu estilo de decoración.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: " ¿Cuál es el proceso de limpieza y mantenimiento de las camas de Itaca?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Las camas de Itaca son fáciles de limpiar. Puedes simplemente pasar un paño húmedo para eliminar el polvo o las manchas menores. Los materiales de alta calidad resisten el desgaste y son duraderos.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "¿Las camas de Itaca son adecuadas para perros grandes y pesados?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Sí, ofrecemos camas grandes que son perfectas para razas grandes y pesadas. Están diseñadas para proporcionar un soporte robusto y duradero.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "¿Hacen envíos a otras ciudades además de Quito, Ecuador?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      " Sí, realizamos envíos a otras ciudades de Ecuador. Ponte en contacto con nuestro equipo de atención al cliente para obtener detalles sobre el envío a tu ubicación.",
+  },
+  {
+    question: "¿Cuál es el tiempo de entrega estimado para las camas de Itaca?",
+    answer:
+      "El tiempo de entrega estimado puede variar según la ubicación, pero generalmente entregamos dentro de los 5-7 días laborables después de confirmar tu pedido.",
+  },
+  {
+    question: "¿Las camas de Itaca vienen ensambladas o requieren montaje?",
+    answer:
+      "Nuestras camas se entregan listas para usar, por lo que no necesitas preocuparte por el montaje. Solo tienes que colocarla en el lugar que prefieras.",
+  },
+  {
+    question: " ¿Ofrecen garantía en sus camas para perros?",
+    answer:
+      "Sí, ofrecemos una garantía de calidad en nuestras camas. Si tienes algún problema con tu cama, ponte en contacto con nuestro equipo de atención al cliente para que te ayuden a resolverlo.",
+  },
+  {
+    question: "¿Qué materiales se utilizan en la fabricación de las camas de Itaca?",
+    answer:
+      "Utilizamos madera triplex de alta calidad y acabados resistentes para garantizar la durabilidad y la comodidad de nuestras camas para perros.",
   },
 ]
 
