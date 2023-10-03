@@ -19,7 +19,7 @@ const features = [
     name: "Dimensiones",
     description: "80 cm largo x 60 cm ancho x 15 cm alto.",
   },
-  { name: "Grande", description: "Ideal para Razas Medianas" },
+  { name: "Grande", description: "Ideal para Razas Grandes" },
   {
     name: "Razas Ideales para la Cama Grande",
     description:

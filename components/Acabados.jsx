@@ -1,6 +1,6 @@
 
 
-export default function Example() {
+export default function Acabados() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-4 pb-20  sm:px-6 lg:px-8">
