@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const featuredTestimonial = {
   body: "Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.",
   author: {
@@ -148,10 +150,10 @@ export default function Example() {
               <p>{`“${featuredTestimonial.body}”`}</p>
             </blockquote>
             <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
-              <img
+              <Image height={50} width={50}
                 className="h-10 w-10 flex-none rounded-full bg-gray-50"
                 src={featuredTestimonial.author.imageUrl}
-                alt=""
+                alt="testimonio"
               />
               <div className="flex-auto">
                 <div className="font-semibold">
@@ -159,10 +161,10 @@ export default function Example() {
                 </div>
                 <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
               </div>
-              <img
+              <Image height={50} width={50}
                 className="h-10 w-auto flex-none"
                 src={featuredTestimonial.author.logoUrl}
-                alt=""
+                alt="testimonio2"
               />
             </figcaption>
           </figure>
@@ -192,10 +194,10 @@ export default function Example() {
                         <p>{`“${testimonial.body}”`}</p>
                       </blockquote>
                       <figcaption className="mt-6 flex items-center gap-x-4">
-                        <img
+                        <Image height={50} width={50}
                           className="h-10 w-10 rounded-full bg-gray-50"
                           src={testimonial.author.imageUrl}
-                          alt=""
+                          alt="testimonios"
                         />
                         <div>
                           <div className="font-semibold">

@@ -19,6 +19,7 @@ import { useState } from 'react'
 import { Disclosure, RadioGroup, Tab } from '@headlessui/react'
 import { StarIcon } from '@heroicons/react/20/solid'
 import { HeartIcon, MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image'
 
 const product = {
   name: 'Cama premium perro',
@@ -108,7 +109,7 @@ export default function Example() {
                       <>
                         <span className="sr-only">{image.name}</span>
                         <span className="absolute inset-0 overflow-hidden rounded-md">
-                          <img src={image.src} alt="" className="h-full w-full object-cover object-center" />
+                          <Image height={300} width={300} src={image.src} alt="camas" className="h-full w-full object-cover object-center" />
                         </span>
                         <span
                           className={classNames(
@@ -127,7 +128,7 @@ export default function Example() {
             <Tab.Panels className="aspect-h-1 aspect-w-1 w-full">
               {product.images.map((image) => (
                 <Tab.Panel key={image.id}>
-                  <img
+                  <Image height={300} width={300}
                     src={image.src}
                     alt={image.alt}
                     className="h-full w-full object-cover object-center sm:rounded-lg"

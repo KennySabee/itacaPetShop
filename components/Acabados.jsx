@@ -16,9 +16,9 @@ export default function Acabados() {
             <div className="mx-auto mt-12 grid max-w-sm grid-cols-1 gap-x-8 gap-y-10 sm:max-w-none lg:grid-cols-2 ">
               
                 <div className="text-center  lg:block lg:text-center">
-                  <div className="">
+                  <div >
                     <h3 className=" font-medium text-gray-950">Acabados madera</h3>
-                    <p className="mt-2 text-gray-600">It's not actually free we just price it into the products. Someone's paying for it, and it's not us.</p>
+                    <p className="mt-2 text-gray-600">Acabados madera.</p>
                   </div>
                   <div className="sm:flex-shrink-0">
                     <div className="flow-root">
@@ -27,9 +27,9 @@ export default function Acabados() {
                   </div>
                 </div>
                 <div className="text-center  lg:block lg:text-center">
-                  <div className="">
+                  <div >
                     <h3 className="font-medium text-gray-950">Acabados colchon</h3>
-                    <p className="mt-2 lg:mb-9 text-gray-600">It's not actually free we just price it into the products. Someone's paying for it, and it's not us.</p>
+                    <p className="mt-2 lg:mb-9 text-gray-600">Acabados madera.</p>
                   </div>
                   <div className="sm:flex-shrink-0">
                     <div className="flow-root">

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const features = [
   { name: "Pequeña ", description: "Ideal para Razas Pequeñas" },
   {
@@ -35,9 +37,9 @@ export default function Example() {
   return (
     <div id="dimensiones" className="bg-white">
       <div aria-hidden="true" className="relative">
-        <img
+        <Image width={800} height={800}
           src="https://tailwindui.com/img/ecommerce-images/product-feature-02-full-width.jpg"
-          alt=""
+          alt="dimensiones"
           className="h-96 w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-white" />
