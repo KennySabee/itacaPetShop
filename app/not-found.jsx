@@ -18,7 +18,7 @@ export default function Example() {
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-950 sm:text-5xl">Página no encontrada</h1>
           <p className="mt-4 text-base text-gray-700 sm:mt-6">Disculpa, no podemos encontrar la página que estas buscando.</p>
           <div className="mt-10 flex justify-center">
-            <Link href="/#inicio" className="text-2xl font-semibold leading-7 text-gray-950">
+            <Link href="/#inicio" scroll={false} className="text-2xl font-semibold leading-7 text-gray-950">
               <span aria-hidden="true">&larr; Regresar a inicio</span> 
             </Link>
           </div>

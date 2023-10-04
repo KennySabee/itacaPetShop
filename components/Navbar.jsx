@@ -24,7 +24,7 @@ export default function NavBar() {
             className="flex items-center justify-between lg:justify-start"
             aria-label="Global"
           >
-            <Link href="/#" className="-m-1.5 p-1.5">
+            <Link href="/#" scroll={false} className="-m-1.5 p-1.5">
               <span className="sr-only">Ítaca</span>
               <Image
               width={150  }
@@ -46,6 +46,7 @@ export default function NavBar() {
               {navigation.map((item) => (
                 <Link
                   key={item.name}
+                  scroll={false}
                   href={item.href}
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
@@ -66,7 +67,7 @@ export default function NavBar() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="#" className="-m-1.5 p-1.5" >
+            <Link href="#" scroll={false} className="-m-1.5 p-1.5" >
               
               <span className="sr-only">Ítaca</span>
               <Image
@@ -93,6 +94,7 @@ export default function NavBar() {
                   <Link
                     onClick={()=> setMobileMenuOpen(false)}
                     key={item.name}
+                    scroll={false}
                     href={item.href}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >

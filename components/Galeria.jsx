@@ -7,7 +7,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="sm:flex sm:items-baseline sm:justify-between">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Productos</h2>
-          <Link href="/#dimensiones" className="hidden text-sm font-semibold text-gray-950 hover:text-gray-700 sm:block">
+          <Link href="/#dimensiones" scroll={false} className="hidden text-sm font-semibold text-gray-950 hover:text-gray-700 sm:block">
             Dimensiones
             <span aria-hidden="true"> &rarr;</span>
           </Link>
@@ -26,7 +26,7 @@ export default function Example() {
             <div className="flex items-end p-6">
               <div>
                 <h3 className="font-semibold text-white">
-                  <Link href="#">
+                  <Link href="#" scroll={false}>
                     <span className="absolute inset-0" />
                     Nuevo
                   </Link>
@@ -93,7 +93,7 @@ export default function Example() {
         </div>
 
         <div className="mt-6 sm:hidden">
-          <Link href="/#dimensiones" className="block text-sm font-semibold text-gray-950 hover:text-gray-700">
+          <Link href="/#dimensiones" scroll={false} className="block text-sm font-semibold text-gray-950 hover:text-gray-700">
             Dimensiones
             <span aria-hidden="true"> &rarr;</span>
           </Link>
