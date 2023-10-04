@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="bg-white" id="inicio">
       <div className="relative">
         <div className="mx-auto max-w-7xl">
-          <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+          <div className="relative z-10 pt-5 sm:pt-10 lg:w-full lg:max-w-2xl">
             <svg
               className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
               viewBox="0 0 100 100"
@@ -18,14 +18,14 @@ export default function Hero() {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+            <div className="relative px-6 pt-32 pb-16 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Descubre nuestra exclusiva gama de muebles.
+                  Descubre nuestra exclusiva gama de muebles. 
                     <Link href="/#caracteristicas"  className="whitespace-nowrap font-semibold text-gray-950">
                       <span className="absolute inset-0" aria-hidden="true" />
-                      Para perros. <span aria-hidden="true">&rarr;</span>
+                       Para perros. <span aria-hidden="true">&rarr;</span>
                     </Link>
                   </div>
                 </div>
@@ -43,6 +43,7 @@ export default function Hero() {
                     className="rounded-md bg-gray-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-700"
                   >
                     Ver Productos
+                    
                   </Link>
                   <Link href="/#dimensiones" className="text-sm font-semibold leading-6 text-gray-950">
                   Dimensiones <span aria-hidden="true">→</span>
