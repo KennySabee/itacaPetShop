@@ -23,10 +23,10 @@ export default function Hero() {
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   Descubre nuestra exclusiva gama de muebles. 
-                    <Link href="/#caracteristicas" scroll={false}  className="whitespace-nowrap font-semibold text-gray-950">
+                    <a href="/#caracteristicas" scroll={false}  className="whitespace-nowrap font-semibold text-gray-950">
                       <span className="absolute inset-0" aria-hidden="true" />
                        Para perros. <span aria-hidden="true">&rarr;</span>
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <h1 className="text-4xl text-center sm:text-left font-bold tracking-tight text-gray-950 sm:text-6xl">
@@ -37,17 +37,17 @@ export default function Hero() {
               mimar a tus adoradas mascotas.
                 </p>
                 <div className="mt-10 flex items-center justify-center sm:justify-start gap-x-6">
-                  <Link
+                  <a
                     href="/#galeria"
                     scroll={false}
                     className="rounded-md bg-gray-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-700"
                   >
                     Ver Productos
                     
-                  </Link>
-                  <Link href="/#dimensiones" scroll={false} className="text-sm font-semibold leading-6 text-gray-950">
+                  </a>
+                  <a href="/#dimensiones" scroll={false} className="text-sm font-semibold leading-6 text-gray-950">
                   Dimensiones <span aria-hidden="true">→</span>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
