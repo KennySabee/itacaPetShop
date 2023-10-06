@@ -24,7 +24,7 @@ export default function NavBar() {
             className="flex items-center justify-between lg:justify-start"
             aria-label="Global"
           >
-            <Link href="/#" scroll={false} className="-m-1.5 p-1.5">
+            <a href="/#" scroll={false} className="-m-1.5 p-1.5">
               <span className="sr-only">Ítaca</span>
               <Image
               width={150  }
@@ -33,7 +33,7 @@ export default function NavBar() {
                 
                 src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
               />
-            </Link>
+            </a>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700 lg:hidden"
@@ -44,14 +44,14 @@ export default function NavBar() {
             </button>
             <div className="hidden lg:ml-12 lg:flex lg:gap-x-14">
               {navigation.map((item) => (
-                <Link
+                <a
                   key={item.name}
                   scroll={false}
                   href={item.href}
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
                   {item.name}
-                </Link>
+                </a>
               ))}
             </div>
           </nav>
@@ -67,7 +67,7 @@ export default function NavBar() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="#" scroll={false} className="-m-1.5 p-1.5" >
+            <a href="#" scroll={false} className="-m-1.5 p-1.5" >
               
               <span className="sr-only">Ítaca</span>
               <Image
@@ -77,7 +77,7 @@ export default function NavBar() {
                 src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
                 alt="logoItaca"
               />
-            </Link>
+            </a>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -91,7 +91,7 @@ export default function NavBar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <Link
+                  <a
                     onClick={()=> setMobileMenuOpen(false)}
                     key={item.name}
                     scroll={false}
@@ -99,7 +99,7 @@ export default function NavBar() {
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
               <div className="py-6">
