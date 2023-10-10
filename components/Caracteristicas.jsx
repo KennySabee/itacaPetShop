@@ -3,24 +3,24 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 const features = [
   {
     name: 'Diseño Único',
-    description: 'En Itaca, entendemos que tu peludo compañero merece lo mejor. Nuestras camas para perros de calidad premium están diseñadas para combinar elegancia y comodidad.',
+    description: 'En Itaca, tu mascota merece lo mejor. Nuestras camas para perros premium combinan elegancia y comodidad. ¡Dales el lujo que se merecen!',
   },
-  { name: 'Calidad Garantizada al 100%', description: 'Los mejores materiales y hecho en Ecuador.' },
+  { name: 'Calidad Garantizada al 100%', description: '100% Calidad Garantizada. Hecho en Ecuador con los mejores materiales. Tu mascota merece lo mejor.' },
   {
     name: 'Reseñas Positivas',
-    description: 'Descubre por qué nuestros clientes están encantados con nuestras camas de madera para perros a través de reseñas positivas que son un testimonio de la satisfacción y felicidad de sus mascotas..',
+    description: 'Descubre la felicidad de las mascotas a través de nuestras reseñas positivas. ¡Únete a la comunidad satisfecha de Itaca!.',
   },
   {
     name: 'No requiere ensamblado',
-    description: 'Simplifica tu vida con nuestras camas de madera para perros. Llegan a tu puerta completamente ensambladas, listas para que tu peludo amigo se relaje sin demoras..',
+    description: 'Simplifica tu vida con nuestras camas de madera para perros: llegan ensambladas y listas para que tu amigo peludo descanse de inmediato.',
   },
   {
     name: 'Fácil Aseo',
-    description: ' Mantener la limpieza es pan comido con nuestras camas de madera para perros. Diseñadas para ser de fácil aseo, garantizan un ambiente higiénico y cómodo para tu mascota..',
+    description: ' Nuestras camas de madera para perros son fáciles de limpiar, garantizando comodidad e higiene para tu mascota.',
   },
   {
     name: 'Cojines de espuma y delcron siliconizado.',
-    description: 'Tu perro merece lo mejor, por eso nuestras camas incluyen cojines de espuma premium y una capa de plumón para brindarle una experiencia de descanso verdaderamente lujosa..',
+    description: 'Ofrece a tu perro lo mejor: nuestras camas cuentan con cojines de espuma premium y capa de plumón para un descanso lujoso.',
   },
   
   

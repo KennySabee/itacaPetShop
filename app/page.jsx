@@ -7,6 +7,7 @@ import Dimensiones from "@/components/Dimensiones";
 import Testimonios from "@/components/Testimonios";
 import PreguntasFrecuentes from "@/components/PreguntasFrecuentes";
 import Footer from "@/components/Footer";
+import BotonWp from '@/components/BotonWP'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonios />
       <PreguntasFrecuentes />
       <Footer />
+      <BotonWp/>
     </>
   );
 }

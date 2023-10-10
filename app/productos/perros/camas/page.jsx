@@ -1,20 +1,6 @@
 "use client"
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+'use client'
 import { useState } from 'react'
 import { Disclosure, RadioGroup, Tab } from '@headlessui/react'
 import { StarIcon } from '@heroicons/react/20/solid'
@@ -29,22 +15,46 @@ const product = {
     {
       id: 1,
       name: 'Angled view',
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg',
+      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955655/itacaPetShop/camas/luaNogal.jpg',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
     {
       id: 1,
       name: 'Angled view',
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg',
+      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955655/itacaPetShop/camas/luaWengue.jpg',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
     {
       id: 1,
       name: 'Angled view',
-      src: 'https://tailwindui.com/img/ecommerce-images/product-page-03-product-01.jpg',
+      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955654/itacaPetShop/camas/luaNegro.jpg',
       alt: 'Angled front view with bag zipped and handles upright.',
     },
-    
+    {
+      id: 1,
+      name: 'Angled view',
+      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955794/itacaPetShop/camas/itacaNogal.jpg',
+      alt: 'Angled front view with bag zipped and handles upright.',
+    },
+    {
+      id: 1,
+      name: 'Angled view',
+      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955794/itacaPetShop/camas/itacaNegro.jpg',
+      alt: 'Angled front view with bag zipped and handles upright.',
+    },
+    {
+      id: 1,
+      name: 'Angled view',
+      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955654/itacaPetShop/camas/luaNegro.jpg',
+      alt: 'Angled front view with bag zipped and handles upright.',
+    },
+    ,
+    {
+      id: 1,
+      name: 'Angled view',
+      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955717/itacaPetShop/camas/candyWengue.jpg',
+      alt: 'Angled front view with bag zipped and handles upright.',
+    },
     // More images...
   ],
   colors: [
@@ -94,11 +104,11 @@ export default function Example() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl  px-4 py-16 sm:px-6 sm:py-24  lg:max-w-7xl lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
+        <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 mt-14">
           {/* Image gallery */}
           <Tab.Group as="div" className="flex flex-col-reverse">
             {/* Image selector */}
-            <div className="mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none">
+            <div className="mx-auto mt-6  w-full max-w-2xl sm:block lg:max-w-none">
               <Tab.List className="grid grid-cols-4 gap-6">
                 {product.images.map((image) => (
                   <Tab
