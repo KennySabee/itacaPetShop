@@ -24,13 +24,12 @@ export default function NavBar() {
             className="flex items-center justify-between lg:justify-start"
             aria-label="Global"
           >
-            <a href="/#" scroll={false} className="-m-1.5 p-1.5">
+            <a href="/#" className="-m-1.5 p-1.5">
               <span className="sr-only">Ítaca</span>
               <Image
-              width={150  }
-              height={150}
+                width={150}
+                height={150}
                 alt="Ítaca"
-                
                 src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
               />
             </a>
@@ -46,7 +45,6 @@ export default function NavBar() {
               {navigation.map((item) => (
                 <a
                   key={item.name}
-                  scroll={false}
                   href={item.href}
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
@@ -67,12 +65,11 @@ export default function NavBar() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" scroll={false} className="-m-1.5 p-1.5" >
-              
+            <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Ítaca</span>
               <Image
-              width={100}
-              height={100}
+                width={100}
+                height={100}
                 className="h-24 w-auto"
                 src="https://res.cloudinary.com/kennysabee/image/upload/v1696008164/itacaPetShop/logoItaca.png"
                 alt="logoItaca"
@@ -92,9 +89,8 @@ export default function NavBar() {
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
                   <a
-                    onClick={()=> setMobileMenuOpen(false)}
+                    onClick={() => setMobileMenuOpen(false)}
                     key={item.name}
-                    scroll={false}
                     href={item.href}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >

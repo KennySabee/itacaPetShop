@@ -1,9 +1,7 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
-
   return (
     <div className="bg-white" id="inicio">
       <div className="relative">
@@ -22,31 +20,36 @@ export default function Hero() {
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Descubre nuestra exclusiva gama de muebles. 
-                    <a href="/#caracteristicas" scroll={false}  className="whitespace-nowrap font-semibold text-gray-950">
+                    Descubre nuestra exclusiva gama de muebles.
+                    <a
+                      href="/#caracteristicas"
+                      scroll={false}
+                      className="whitespace-nowrap font-semibold text-gray-950"
+                    >
                       <span className="absolute inset-0" aria-hidden="true" />
-                       Para perros. <span aria-hidden="true">&rarr;</span>
+                      Para perros. <span aria-hidden="true">&rarr;</span>
                     </a>
                   </div>
                 </div>
                 <h1 className="text-4xl text-center sm:text-left font-bold tracking-tight text-gray-950 sm:text-6xl">
-                ¡Hagamos que tu hogar sea su hogar!
+                  ¡Hagamos que tu hogar sea su hogar!
                 </h1>
                 <p className="mt-6 text-lg text-center sm:text-left leading-8 text-gray-600">
-                Bienvenido a Ítaca, donde el confort y el estilo se unen para
-              mimar a tus adoradas mascotas.
+                  Bienvenido a Ítaca, donde el confort y el estilo se unen para
+                  mimar a tus adoradas mascotas.
                 </p>
                 <div className="mt-10 flex items-center justify-center sm:justify-start gap-x-6">
                   <a
                     href="/#galeria"
-                    scroll={false}
                     className="rounded-md bg-gray-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-700"
                   >
                     Ver Productos
-                    
                   </a>
-                  <a href="/#dimensiones" scroll={false} className="text-sm font-semibold leading-6 text-gray-950">
-                  Dimensiones <span aria-hidden="true">→</span>
+                  <a
+                    href="/#dimensiones"
+                    className="text-sm font-semibold leading-6 text-gray-950"
+                  >
+                    Dimensiones <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </div>
