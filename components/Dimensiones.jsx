@@ -3,9 +3,9 @@ import Image from "next/image";
 const features = [
   { name: "Pequeña ", description: "Ideal para razas Pequeñas" },
   {
-    name: "Razas ideales para la cama pequeña",
+    name: "Razas ideales cama pequeña",
     description:
-      "Chihuahua, Yorkshire Terrier,Pomerania, Caniche Toy, Bichón Frisé,  Maltese",
+      "Chihuahua, Yorkshire Terrier, Pomerania, Caniche Toy, Bichón Frisé,  Maltese",
   },
   {
     name: "Dimensiones",
@@ -13,7 +13,7 @@ const features = [
   },
   { name: "Mediana", description: "Ideal para razas Medianas" },
   {
-    name: "Razas ideales para la cama mediana",
+    name: "Razas ideales cama mediana",
     description:
       "Beagle, Bulldog Francés, Cocker Spaniel, Shiba Inu, Schnauzer, Corgi",
   },
@@ -23,7 +23,7 @@ const features = [
   },
   { name: "Grande", description: "Ideal para razas Grandes" },
   {
-    name: "Razas ideales para la cama grande",
+    name: "Razas ideales cama grande",
     description:
       "Labrador Retriever, Golden Retriever, Pastor Alemán, Husky Siberiano, Boxer, Dálmata",
   },
@@ -38,7 +38,7 @@ export default function Example() {
     <div id="dimensiones" className="bg-white">
       <div aria-hidden="true" className="relative">
         <Image width={1080} height={1080}
-          src="https://res.cloudinary.com/kennysabee/image/upload/v1696351032/itacaPetShop/galeriaPortada/perroPortada.jpg"
+          src="https://res.cloudinary.com/kennysabee/image/upload/v1696355366/itacaPetShop/hero.jpg"
           alt="dimensiones"
           className="h-72 sm:h-96 w-full object-cover  object-bottom sm:object-center"
         />

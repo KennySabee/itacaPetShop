@@ -1,13 +1,12 @@
 import Image from "next/image";
 
 const featuredTestimonial = {
-  body: "La cama grande de Itaca ha cambiado la vida de mi Husky Siberiano, Luna. Desde que tenemos esta cama, Luna duerme profundamente y se despierta más feliz que nunca. La calidad y el diseño de la cama son impresionantes. ¡Esta cama realmente es una joya para cualquier dueño de mascotas en departamentos!",
+  body: "La madera de la cama de Itaca es lo que más me impresiona. Es sólida y hermosa. Mi Pug, Toby, parece sentirse como un rey en su cama de madera. ¡Una obra maestra de artesanía!",
   author: {
-    name: "Elena R.",
-    handle: "brennagoyette",
+    name: "Natalia L.",
+    handle: "tomcook",
     imageUrl:
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    
+      "https://images.unsplash.com/photo-1685703217788-6709c752f567?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
   },
 };
 const testimonials = [
@@ -31,62 +30,54 @@ const testimonials = [
             "https://images.unsplash.com/photo-1542996966-2e31c00bae31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
         },
       },
-      {
-        body: "La madera de la cama pequeña de Itaca es simplemente espectacular. Mi Yorkshire Terrier, Bella, se ve tan elegante en su nueva cama. La calidad de la madera es evidente y le da un toque de sofisticación a nuestro espacio.",
-        author: {
-          name: "Xavier H. ",
-          handle: "lesliealexander",
-          imageUrl:
-            "https://images.unsplash.com/photo-1540289327268-c149bdfd7d3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80",
-        },
-      },
+      // {
+      //   body: "La madera de la cama pequeña de Itaca es simplemente espectacular. Mi Yorkshire Terrier, Bella, se ve tan elegante en su nueva cama. La calidad de la madera es evidente y le da un toque de sofisticación a nuestro espacio.",
+      //   author: {
+      //     name: "Xavier H. ",
+      //     handle: "lesliealexander",
+      //     imageUrl:
+      //       "https://images.unsplash.com/photo-1540289327268-c149bdfd7d3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80",
+      //   },
+      // },
       // More testimonials...
     ],
     [
-      {
-        body: "Nuestra cama pequeña de Itaca es simplemente adorable. Mi Chihuahua la adora, y yo también.",
-        author: {
-          name: "Lindsay W.",
-          handle: "lindsaywalton",
-          imageUrl:
-            "https://images.unsplash.com/photo-1484608856193-968d2be4080e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-        },
-      },
-      {
-        body: "Mi Pastor Alemán tiene mucho espacio en la cama grande de Itaca. Está tan cómodo que a veces me gustaría tener una igual.",
-        author: {
-          name: " María J. ",
-          handle: "lesliealexander",
-          imageUrl:
-            "https://images.unsplash.com/photo-1526080652727-5b77f74eacd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80",
-        },
-      },
+      // {
+      //   body: "Nuestra cama pequeña de Itaca es simplemente adorable. Mi Chihuahua la adora, y yo también.",
+      //   author: {
+      //     name: "Lindsay W.",
+      //     handle: "lindsaywalton",
+      //     imageUrl:
+      //       "https://images.unsplash.com/photo-1484608856193-968d2be4080e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      //   },
+      // },
+      // {
+      //   body: "Mi Pastor Alemán tiene mucho espacio en la cama grande de Itaca. Está tan cómodo que a veces me gustaría tener una igual.",
+      //   author: {
+      //     name: " María J. ",
+      //     handle: "lesliealexander",
+      //     imageUrl:
+      //       "https://images.unsplash.com/photo-1526080652727-5b77f74eacd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80",
+      //   },
+      // },
     ],
   ],
   [
     [
-      {
-        body: "La madera de la cama de Itaca es lo que más me impresiona. Es sólida y hermosa. Mi Pug, Toby, parece sentirse como un rey en su cama de madera. ¡Una obra maestra de artesanía!",
-        author: {
-          name: "Natalia L.",
-          handle: "tomcook",
-          imageUrl:
-            "https://images.unsplash.com/photo-1685703217788-6709c752f567?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-        },
-      },
-      {
-        body: "Nuestra cama grande de Itaca ha elevado la comodidad de nuestro Dálmata, Luna. Es espaciosa y duradera, lo que es crucial para una raza activa como la suya. ¡Estamos muy contentos con nuestra compra!",
-        author: {
-          name: "Leslie A.",
-          handle: "lesliealexander",
-          imageUrl:
-            "https://images.unsplash.com/photo-1685703206888-3af4781ad83f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-        },
-      },
+      
+      // {
+      //   body: "Nuestra cama grande de Itaca ha elevado la comodidad de nuestro Dálmata, Luna. Es espaciosa y duradera, lo que es crucial para una raza activa como la suya. ¡Estamos muy contentos con nuestra compra!",
+      //   author: {
+      //     name: "Leslie A.",
+      //     handle: "lesliealexander",
+      //     imageUrl:
+      //       "https://images.unsplash.com/photo-1685703206888-3af4781ad83f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      //   },
+      // },
     ],
     [
       {
-        body: "La cama pequeña de Itaca es el refugio perfecto para nuestro Bichón Frisé, Bella. La calidad y el diseño son excepcionales. Bella la adora, y nosotros también. Sin duda, una inversión que vale la pena.",
+        body: "La calidad y el diseño son excepcionales. Bella la adora, y nosotros también. Sin duda, una inversión que vale la pena.",
         author: {
           name: "Leonardo K.",
           handle: "leonardkrasner",
@@ -103,15 +94,15 @@ const testimonials = [
             "https://images.unsplash.com/photo-1603570112520-fdc514048979?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
         },
       },
-      {
-        body: "La calidad de la madera de la cama de Itaca es realmente excepcional. La elegante madera natural se ve y se siente increíble. Mi Border Collie, Max, sabe apreciar el buen material, y esta cama definitivamente cumple con sus estándares. ¡Estamos encantados!",
-        author: {
-          name: " Lucía S.",
-          handle: "lesliealexander",
-          imageUrl:
-            "https://images.unsplash.com/photo-1519733833087-3b1ceb8d56c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1929&q=80",
-        },
-      },
+      // {
+      //   body: "La calidad de la madera de la cama de Itaca es realmente excepcional. La elegante madera natural se ve y se siente increíble. Mi Border Collie, Max, sabe apreciar el buen material, y esta cama definitivamente cumple con sus estándares. ¡Estamos encantados!",
+      //   author: {
+      //     name: " Lucía S.",
+      //     handle: "lesliealexander",
+      //     imageUrl:
+      //       "https://images.unsplash.com/photo-1519733833087-3b1ceb8d56c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1929&q=80",
+      //   },
+      // },
     ],
   ],
 ];
@@ -145,7 +136,7 @@ export default function Example() {
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-          <figure className="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
+          <figure className="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1 ">
             <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight text-gray-900 sm:p-12 sm:text-xl sm:leading-8">
               <p>{`“${featuredTestimonial.body}”`}</p>
             </blockquote>
@@ -167,7 +158,7 @@ export default function Example() {
           {testimonials.map((columnGroup, columnGroupIdx) => (
             <div
               key={columnGroupIdx}
-              className="space-y-8 xl:contents xl:space-y-0"
+              className="space-y-8 xl:contents xl:space-y-0 "
             >
               {columnGroup.map((column, columnIdx) => (
                 <div
@@ -184,7 +175,7 @@ export default function Example() {
                   {column.map((testimonial) => (
                     <figure
                       key={testimonial.author.handle}
-                      className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"
+                      className=" rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"
                     >
                       <blockquote className="text-gray-900">
                         <p>{`“${testimonial.body}”`}</p>

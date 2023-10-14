@@ -1,105 +1,139 @@
-"use client"
+"use client";
 
-'use client'
-import { useState } from 'react'
-import { Disclosure, RadioGroup, Tab } from '@headlessui/react'
-import { StarIcon } from '@heroicons/react/20/solid'
-import { HeartIcon, MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
-import Image from 'next/image'
+"use client";
+import { useState } from "react";
+import { Disclosure, RadioGroup, Tab } from "@headlessui/react";
+import { StarIcon } from "@heroicons/react/20/solid";
+import { HeartIcon, MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import Link from "next/link";
 
 const product = {
-  name: 'Cama premium perro',
-  price: '$140',
+  name: "Cama premium perro",
+  price: " Desde $100",
   rating: 5,
   images: [
     {
       id: 1,
-      name: 'Angled view',
-      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955655/itacaPetShop/camas/luaNogal.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
+      name: "Angled view",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955655/itacaPetShop/camas/luaNogal.jpg",
+      alt: "Angled front view with bag zipped and handles upright.",
     },
     {
       id: 1,
-      name: 'Angled view',
-      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955655/itacaPetShop/camas/luaWengue.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
+      name: "Angled view",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955655/itacaPetShop/camas/luaWengue.jpg",
+      alt: "Angled front view with bag zipped and handles upright.",
     },
     {
       id: 1,
-      name: 'Angled view',
-      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955654/itacaPetShop/camas/luaNegro.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
+      name: "Angled view",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955654/itacaPetShop/camas/luaNegro.jpg",
+      alt: "Angled front view with bag zipped and handles upright.",
     },
     {
       id: 1,
-      name: 'Angled view',
-      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955794/itacaPetShop/camas/itacaNogal.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
+      name: "Angled view",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955794/itacaPetShop/camas/itacaNogal.jpg",
+      alt: "Angled front view with bag zipped and handles upright.",
     },
     {
       id: 1,
-      name: 'Angled view',
-      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955794/itacaPetShop/camas/itacaNegro.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
+      name: "Angled view",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955794/itacaPetShop/camas/itacaNegro.jpg",
+      alt: "Angled front view with bag zipped and handles upright.",
     },
     {
       id: 1,
-      name: 'Angled view',
-      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955654/itacaPetShop/camas/luaNegro.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
+      name: "Angled view",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955654/itacaPetShop/camas/luaNegro.jpg",
+      alt: "Angled front view with bag zipped and handles upright.",
     },
     ,
     {
       id: 1,
-      name: 'Angled view',
-      src: 'https://res.cloudinary.com/kennysabee/image/upload/v1696955717/itacaPetShop/camas/candyWengue.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
+      name: "Angled view",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955717/itacaPetShop/camas/candyWengue.jpg",
+      alt: "Angled front view with bag zipped and handles upright.",
     },
     // More images...
   ],
   colors: [
-    { name: 'Washed Black', bgColor: 'bg-gray-700', selectedColor: 'ring-gray-700' },
-    { name: 'White', bgColor: 'bg-white', selectedColor: 'ring-gray-400' },
-    { name: 'Washed Gray', bgColor: 'bg-gray-500', selectedColor: 'ring-gray-500' },
+    {
+      name: "Washed Black",
+      bgColor: "bg-gray-900",
+      selectedColor: "ring-gray-700",
+    },
+    {
+      name: "White",
+      bgColor: "bg-orange-950",
+      selectedColor: "ring-orange-900",
+    },
+    {
+      name: "Washed Gray",
+      bgColor: "bg-orange-900",
+      selectedColor: "ring-orange-800",
+    },
+  ],
+  size: [
+    {
+      name: "Small",
+      bgColor: "bg-gray-900",
+      selectedColor: "ring-gray-700",
+      colorText:"white",
+      text: "S"
+    },
+    {
+      name: "Medium",
+      bgColor: "bg-orange-950",
+      selectedColor: "ring-orange-900",
+      colorText:"white",
+      text: "S"
+    },
+    {
+      name: "Large",
+      bgColor: "bg-orange-900",
+      selectedColor: "ring-orange-800",
+      colorText:"white",
+      text: "S"
+    },
   ],
   description: `
-    <p> The Zip Tote Basket is the perfect midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.</p>
+    <p> Eleva el descanso de tu mascota con la cama de madera de Itaca. Hecha a mano con madera de alta calidad, esta cama combina estilo y durabilidad. Disponible en tres tamaños para adaptarse a tu perro, es fácil de limpiar y ofrece envíos a todo Ecuador. Brinda a tu mascota un refugio cómodo y elegante. ¡Descubre el lujo y la calidad con la cama de Itaca!</p>
   `,
   details: [
     {
-      name: 'Features',
+      name: "Lo que nos hace únicos",
       items: [
-        'Multiple strap configurations',
-        'Spacious interior with top zip',
-        'Leather handle and tabs',
-        'Interior dividers',
-        'Stainless strap loops',
-        'Double stitched construction',
-        'Water-resistant',
+        "Madera de Alta Calidad",
+        "Acabados Personalizables",
+        "Tamaños para Cada Mascota",
+        "Fácil de Limpiar",
+        "Envíos en Todo Ecuador",
+        
       ],
     },
     {
-      name: 'Features',
+      name: "Tamaños",
       items: [
-        'Multiple strap configurations',
-        'Spacious interior with top zip',
-        'Leather handle and tabs',
-        'Interior dividers',
-        'Stainless strap loops',
-        'Double stitched construction',
-        'Water-resistant',
+        "Pequeña",
+        "Mediana",
+        "Grande",
+        "Personalizada",
+
+        
       ],
     },
     // More sections...
   ],
-}
+};
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Example() {
-  const [selectedColor, setSelectedColor] = useState(product.colors[0])
+  const [selectedColor, setSelectedColor] = useState(product.colors[0]);
 
   return (
     <div className="bg-white">
@@ -119,12 +153,18 @@ export default function Example() {
                       <>
                         <span className="sr-only">{image.name}</span>
                         <span className="absolute inset-0 overflow-hidden rounded-md">
-                          <Image height={300} width={300} src={image.src} alt="camas" className="h-full w-full object-cover object-center" />
+                          <Image
+                            height={300}
+                            width={300}
+                            src={image.src}
+                            alt="camas"
+                            className="h-full w-full object-cover object-center"
+                          />
                         </span>
                         <span
                           className={classNames(
-                            selected ? 'ring-gray-950' : 'ring-transparent',
-                            'pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2'
+                            selected ? "ring-gray-950" : "ring-transparent",
+                            "pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2"
                           )}
                           aria-hidden="true"
                         />
@@ -138,7 +178,9 @@ export default function Example() {
             <Tab.Panels className="aspect-h-1 aspect-w-1 w-full">
               {product.images.map((image) => (
                 <Tab.Panel key={image.id}>
-                  <Image height={300} width={300}
+                  <Image
+                    height={300}
+                    width={300}
                     src={image.src}
                     alt={image.alt}
                     className="h-full w-full object-cover object-center sm:rounded-lg"
@@ -150,12 +192,17 @@ export default function Example() {
 
           {/* Product info */}
           <div className="mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-32">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900">{product.name}</h1>
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900">
+              {product.name}
+            </h1>
 
             <div className="mt-3">
               <h2 className="sr-only">Product information</h2>
-              <p className="text-3xl tracking-tight text-gray-900">{product.price}</p>
+              <p className="text-3xl tracking-tight text-gray-900">
+                {product.price}
+              </p>
             </div>
+            
 
             {/* Reviews */}
             <div className="mt-3">
@@ -166,8 +213,10 @@ export default function Example() {
                     <StarIcon
                       key={rating}
                       className={classNames(
-                        product.rating > rating ? 'text-gray-950' : 'text-gray-300',
-                        'h-5 w-5 flex-shrink-0'
+                        product.rating > rating
+                          ? "text-gray-950"
+                          : "text-gray-300",
+                        "h-5 w-5 flex-shrink-0"
                       )}
                       aria-hidden="true"
                     />
@@ -191,8 +240,14 @@ export default function Example() {
               <div>
                 <h3 className="text-sm text-gray-600">Color</h3>
 
-                <RadioGroup value={selectedColor} onChange={setSelectedColor} className="mt-2">
-                  <RadioGroup.Label className="sr-only">Choose a color</RadioGroup.Label>
+                <RadioGroup
+                  value={selectedColor}
+                  onChange={setSelectedColor}
+                  className="mt-2"
+                >
+                  <RadioGroup.Label className="sr-only">
+                    Choose a color
+                  </RadioGroup.Label>
                   <span className="flex items-center space-x-3">
                     {product.colors.map((color) => (
                       <RadioGroup.Option
@@ -201,9 +256,9 @@ export default function Example() {
                         className={({ active, checked }) =>
                           classNames(
                             color.selectedColor,
-                            active && checked ? 'ring ring-offset-1' : '',
-                            !active && checked ? 'ring-2' : '',
-                            'relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none'
+                            active && checked ? "ring ring-offset-1" : "",
+                            !active && checked ? "ring-2" : "",
+                            "relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none"
                           )
                         }
                       >
@@ -214,7 +269,7 @@ export default function Example() {
                           aria-hidden="true"
                           className={classNames(
                             color.bgColor,
-                            'h-8 w-8 rounded-full border border-black border-opacity-10'
+                            "h-8 w-8 rounded-full border border-black border-opacity-10"
                           )}
                         />
                       </RadioGroup.Option>
@@ -224,14 +279,13 @@ export default function Example() {
               </div>
 
               <div className="mt-10 flex">
-                <button
+                <Link
+                  href="https://wa.link/hrpvvt"
                   type="submit"
                   className="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gray-950 px-8 py-3 text-base font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
                 >
                   Comprar
-                </button>
-
-                
+                </Link>
               </div>
             </form>
 
@@ -248,7 +302,10 @@ export default function Example() {
                         <h3>
                           <Disclosure.Button className="group relative flex w-full items-center justify-between py-6 text-left">
                             <span
-                              className={classNames(open ? 'text-gray-950' : 'text-gray-900', 'text-sm font-medium')}
+                              className={classNames(
+                                open ? "text-gray-950" : "text-gray-900",
+                                "text-sm font-medium"
+                              )}
                             >
                               {detail.name}
                             </span>
@@ -267,7 +324,10 @@ export default function Example() {
                             </span>
                           </Disclosure.Button>
                         </h3>
-                        <Disclosure.Panel as="div" className="prose prose-sm pb-6">
+                        <Disclosure.Panel
+                          as="div"
+                          className="prose prose-sm pb-6"
+                        >
                           <ul role="list">
                             {detail.items.map((item) => (
                               <li key={item}>{item}</li>
@@ -284,5 +344,5 @@ export default function Example() {
         </div>
       </div>
     </div>
-  )
+  );
 }
