@@ -23,7 +23,6 @@ export default function Hero() {
                     Descubre nuestra exclusiva gama de muebles.
                     <a
                       href="/#caracteristicas"
-                      scroll={false}
                       className="whitespace-nowrap font-semibold text-gray-950"
                     >
                       <span className="absolute inset-0" aria-hidden="true" />

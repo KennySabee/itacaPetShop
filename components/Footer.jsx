@@ -7,7 +7,7 @@ const navigation = [
   },
   {
     name: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/itaca.ec/',
     icon: BsInstagram
     
   },
@@ -19,7 +19,7 @@ const navigation = [
   
   {
     name: 'WhatsApp',
-    href: '#',
+    href: 'https://wa.link/hrpvvt',
     icon: BsWhatsapp
   },
 ]
