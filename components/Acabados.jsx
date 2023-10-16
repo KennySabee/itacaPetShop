@@ -18,7 +18,7 @@ export default function Acabados() {
                 <div className="text-center  lg:block lg:text-center">
                   <div >
                     <h3 className=" font-medium text-gray-950">Acabados madera</h3>
-                    <p className="mt-2 text-gray-600">Acabados madera.</p>
+                    <p className="mt-2 text-gray-600">Elige el acabado que más te guste.</p>
                   </div>
                   <div className="sm:flex-shrink-0">
                     <div className="flow-root">
@@ -29,11 +29,15 @@ export default function Acabados() {
                 <div className="text-center  lg:block lg:text-center">
                   <div >
                     <h3 className="font-medium text-gray-950">Acabados colchon</h3>
-                    <p className="mt-2 lg:mb-9 text-gray-600">Acabados madera.</p>
+                    <p className="mt-2 lg:mb-9 text-gray-600">Disponemos de varias telas y colores.</p>
                   </div>
                   <div className="sm:flex-shrink-0">
-                    <div className="flow-root">
-                      <Image className="mx-auto object-cover mt-4 lg:mt-0" width={842} height={234}  src="https://res.cloudinary.com/kennysabee/image/upload/v1696264531/itacaPetShop/acabadosColchones.jpg" alt="coloresColchon" />
+                    <div className="flow-root sm:block">
+                      
+                      <Image className="hidden sm:block mx-auto object-cover mt-4 lg:mt-0" width={900} height={400}  src="https://res.cloudinary.com/kennysabee/image/upload/v1696264531/itacaPetShop/acabadosColchones.jpg" alt="coloresColchon" />
+                      
+                      <Image className="mx-auto object-cover sm:hidden" width={300} height={300}  src="https://res.cloudinary.com/kennysabee/image/upload/v1697479010/itacaPetShop/acabadoColchon1.jpg" alt="coloresColchon" />
+                      <Image className="mx-auto object-cover sm:hidden" width={300} height={300}  src="https://res.cloudinary.com/kennysabee/image/upload/v1697479010/itacaPetShop/acabadoColchon2.jpg" alt="coloresColchon" />
                     </div>
                   </div>
                 </div>

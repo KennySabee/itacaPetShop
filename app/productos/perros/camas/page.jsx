@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const product = {
   name: "Cama premium perro",
-  price: " Desde $100",
+  price: " $110",
   rating: 5,
   images: [
     {
@@ -40,21 +40,21 @@ const product = {
     {
       id: 1,
       name: "Angled view",
-      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955794/itacaPetShop/camas/itacaNegro.jpg",
-      alt: "Angled front view with bag zipped and handles upright.",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1697479980/itacaPetShop/tallas/tallaS.jpg",
+      alt: "Talla S.",
     },
     {
       id: 1,
       name: "Angled view",
-      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955654/itacaPetShop/camas/luaNegro.jpg",
-      alt: "Angled front view with bag zipped and handles upright.",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1697479980/itacaPetShop/tallas/tallaM.jpg",
+      alt: "Talla M.",
     },
     ,
     {
       id: 1,
       name: "Angled view",
-      src: "https://res.cloudinary.com/kennysabee/image/upload/v1696955717/itacaPetShop/camas/candyWengue.jpg",
-      alt: "Angled front view with bag zipped and handles upright.",
+      src: "https://res.cloudinary.com/kennysabee/image/upload/v1697479979/itacaPetShop/tallas/tallaL.jpg",
+      alt: "Talla L.",
     },
     // More images...
   ],

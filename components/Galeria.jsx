@@ -46,7 +46,7 @@ export default function Example() {
               className="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"
             />
 
-            <div className="flex sm:items-end p-6 absolute sm:inset-0">
+            <div className="flex sm:items-end p-6 absolute sm:inset-0 ">
               <div>
                 <h3 className="font-semibold text-white">
                   <a href="/productos/perros/camas">

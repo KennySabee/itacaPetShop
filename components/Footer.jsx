@@ -2,7 +2,7 @@ import {BsInstagram, BsWhatsapp, BsTiktok, BsFacebook} from "react-icons/bs"
 const navigation = [
   {
     name: 'Facebook',
-    href: '#',
+    href: 'https://www.facebook.com/profile.php?id=61552266422912',
     icon: BsFacebook
   },
   {
