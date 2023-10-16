@@ -7,6 +7,7 @@ import { StarIcon } from "@heroicons/react/20/solid";
 import { HeartIcon, MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
+import BotonWp from "@/components/BotonWP";
 
 const product = {
   name: "Cama premium perro",
@@ -343,6 +344,7 @@ export default function Example() {
           </div>
         </div>
       </div>
+      <BotonWp />
     </div>
   );
 }

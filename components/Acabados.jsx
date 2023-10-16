@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Acabados() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-4 pb-20  sm:px-6 lg:px-8">
-        <div className="rounded-2xl bg-white px-6 py-16 sm:p-16">
+      <div className="mx-auto max-w-7xl px-4 sm:pb-10  sm:px-6 lg:px-8">
+        <div className="rounded-2xl bg-white px-6  sm:p-16">
           <div className="mx-auto max-w-xl lg:max-w-none">
             <div className="text-center lg:text-left">
               <h2 className="text-2xl font-bold tracking-tight text-gray-950 ">
