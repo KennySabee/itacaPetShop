@@ -4,10 +4,11 @@
 import { useState } from "react";
 import { Disclosure, RadioGroup, Tab } from "@headlessui/react";
 import { StarIcon } from "@heroicons/react/20/solid";
-import { HeartIcon, MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
+import { MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-import Link from "next/link";
-import BotonWp from "@/components/BotonWP";
+
+
+import ButtonWithSizes from "./ButtonWithSizes";
 
 const product = {
   name: "Cama premium perro",
@@ -81,22 +82,22 @@ const product = {
       name: "Small",
       bgColor: "bg-gray-900",
       selectedColor: "ring-gray-700",
-      colorText:"white",
-      text: "S"
+      colorText: "white",
+      text: "S",
     },
     {
       name: "Medium",
       bgColor: "bg-orange-950",
       selectedColor: "ring-orange-900",
-      colorText:"white",
-      text: "S"
+      colorText: "white",
+      text: "S",
     },
     {
       name: "Large",
       bgColor: "bg-orange-900",
       selectedColor: "ring-orange-800",
-      colorText:"white",
-      text: "S"
+      colorText: "white",
+      text: "S",
     },
   ],
   description: `
@@ -106,23 +107,21 @@ const product = {
     {
       name: "Lo que nos hace únicos",
       items: [
-        "Madera de Alta Calidad",
-        "Acabados Personalizables",
-        "Tamaños para Cada Mascota",
-        "Fácil de Limpiar",
-        "Envíos en Todo Ecuador",
-        
+        "- Madera de Alta Calidad",
+        "- Acabados Personalizables",
+        "- Tamaños para Cada Mascota",
+        "- Fácil de Limpiar",
+        "- Envíos en Todo Ecuador",
       ],
     },
-    {
-      name: "Tamaños",
-      items: [
-        "Pequeña",
-        "Mediana",
-        "Grande",
-        "Personalizada",
 
-        
+    {
+      name: "Pago Seguro",
+      items: [
+        "- Transferencia Bancaria (Pichincha, Produbanco, Guayaquil)",
+        "- Efectivo",
+        "- PayPal",
+        "- Si deseas utilizar otro sistema de pago ponte en contacto a través de mensaje.",
       ],
     },
     // More sections...
@@ -197,12 +196,6 @@ export default function Example() {
               {product.name}
             </h1>
 
-            <div className="mt-3">
-              <h2 className="sr-only">Product information</h2>
-              <p className="text-3xl tracking-tight text-gray-900">
-                {product.price}
-              </p>
-            </div>
             
 
             {/* Reviews */}
@@ -278,15 +271,8 @@ export default function Example() {
                   </span>
                 </RadioGroup>
               </div>
-
-              <div className="mt-10 flex">
-                <Link
-                  href="https://wa.link/hrpvvt"
-                  type="submit"
-                  className="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-gray-950 px-8 py-3 text-base font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
-                >
-                  Comprar
-                </Link>
+              <div>
+                <ButtonWithSizes />
               </div>
             </form>
 
@@ -344,7 +330,7 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <BotonWp />
+      
     </div>
   );
 }
