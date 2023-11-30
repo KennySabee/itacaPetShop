@@ -20,13 +20,13 @@ export default function Example() {
           <ProductosItems
             img="https://res.cloudinary.com/kennysabee/image/upload/v1696355455/itacaPetShop/galeriaPortada/itacaGaleria.jpg"
             title="Camas de madera"
-            useWith="Comprar"
+            useWith="Comprar Camas"
             url="/productos/perros/camas"
           />
           <ProductosItems
             img="https://res.cloudinary.com/kennysabee/image/upload/v1696351032/itacaPetShop/galeriaPortada/luaPortada.jpg"
             title="Accesorios"
-            useWith="Comprar"
+            useWith="Comprar Accesorios"
             url="/productos/perros/camas"
           />
           

@@ -10,16 +10,13 @@ const ProductosItems = ({ img, title, useWith, url }) => {
         width={600}
         height={600}
         alt="productos"
-        style={{ objectFit: "cover"} }
-        
-        
+        style={{ objectFit: "cover" }}
       />
-      <div className="hidden group-hover:block absolute">
-        
-        <p className="pb-4 pt-2 text-white text-center text-base font-medium ">{useWith}</p>
-        <Link href={url} >
+      
+      <div className="  group-hover:block absolute">
+        <Link href={url}>
           <p className="text-center text-lg px-5  tracking-widest py-3 rounded-lg bg-gray-100 text-gray-700 font-bold hover:bg-slate-100  hover:scale-105 ease-in duration-300">
-          {title}
+            {title}
           </p>
         </Link>
       </div>
